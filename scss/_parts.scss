@@ -1,0 +1,68 @@
+
+.head-item {
+  ul {
+    display: flex;
+  }
+}
+.side-banner {
+  ul {
+    display: flex;
+  }
+}
+
+.search-text-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-nyuuka-list, .search-condition-list, .search-season-list {
+  li {
+    display: flex;
+    align-items: center;
+    &::before {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      background: url("./img/arrow.png") 0 0 /contain no-repeat;
+      content: "";
+    }
+  }
+  .date {
+    width: 60px;
+  }
+  .rank {
+    width: 38px;
+  }
+  .yeay {
+    width: 70px;
+  }
+  .text {
+    display: inline-block;
+    width: 100%;
+  }
+}
+.search-alphabet-brand-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+.search-all-brand-list {
+  width: 100%;
+}
+.search-category-list {
+  li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+}
+.search-price-block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  input {
+    width: 43%;
+  }
+}

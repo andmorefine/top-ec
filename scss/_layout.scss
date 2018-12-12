@@ -1,0 +1,17 @@
+
+.l-wrapper {
+  margin: 0 auto;
+  .l-contents {
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .l-sidebar {
+    width: 250px;
+  }
+  .l-main {
+    width: 700px;
+  }
+}
