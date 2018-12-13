@@ -25,6 +25,16 @@
   }
 }
 
+.fixed-area {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  a {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
 .page-top {
   position: fixed;
   bottom: 5px;
