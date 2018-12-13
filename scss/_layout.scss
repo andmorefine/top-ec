@@ -1,9 +1,14 @@
 
 .l-wrapper {
-  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   .l-contents {
-    margin: 0 auto;
-    width: 980px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1180px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -12,6 +17,16 @@
     width: 250px;
   }
   .l-main {
-    width: 700px;
+    width: 900px;
   }
+  .l-footer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.page-top {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
 }
