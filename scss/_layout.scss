@@ -8,16 +8,16 @@
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
-    width: 1180px;
+    width: 900px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
   }
   .l-sidebar {
-    width: 250px;
+    width: 190px;
   }
   .l-main {
-    width: 900px;
+    width: 685px;
   }
   .l-footer {
     margin-right: auto;
@@ -32,6 +32,9 @@
   a {
     display: block;
     padding: 10px 0;
+    img {
+      width: 84px;
+    }
   }
 }
 
@@ -39,4 +42,7 @@
   position: fixed;
   bottom: 5px;
   right: 10px;
+  img {
+    width: 66px;
+  }
 }

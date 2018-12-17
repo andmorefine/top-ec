@@ -30,7 +30,7 @@ gulp.task("default", function() {
       .pipe(
         // CSS output style (nested | expanded | compact | compressed)
         sass({
-          outputStyle: "compressed"
+          outputStyle: "expanded"
         })
           .on("error", sass.logError)
       )
