@@ -262,7 +262,7 @@ a img:hover, button img:hover {
 .header-contents .head-top {
   width: 100%;
   height: 140px;
-  background: url("./img/header-back.png") center center/cover no-repeat;
+  background: url("./img/header-back.png") center center/100% 100% no-repeat;
   z-index: 2;
 }
 
@@ -279,6 +279,12 @@ a img:hover, button img:hover {
   text-align: right;
   padding: 20px 10px 0 0;
   font-size: 12px;
+}
+
+.header-contents .head-logo {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
 }
 
 .header-contents .head-logo img {
@@ -314,6 +320,11 @@ a img:hover, button img:hover {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   width: 44%;
   margin-right: 1%;
 }
@@ -321,6 +332,9 @@ a img:hover, button img:hover {
 .header-contents .nav-link a {
   font-weight: bold;
   margin: 0 10px;
+  background: #fff;
+  padding: 10px 4px;
+  border-radius: 5px;
 }
 
 .header-contents .cart-link {
@@ -336,6 +350,11 @@ a img:hover, button img:hover {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   width: 44%;
   margin-left: 1%;
 }
@@ -354,6 +373,7 @@ a img:hover, button img:hover {
   -ms-flex-align: center;
   align-items: center;
   font-size: 12px;
+  background: #fff;
 }
 
 .header-contents .cart-link li a img {
