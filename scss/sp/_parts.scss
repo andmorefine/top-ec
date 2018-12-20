@@ -80,16 +80,18 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-flow: row wrap;
-    width: 73%;
+    flex-flow: row nowrap;
+    width: 61vw;
     margin-left: auto;
-    margin-top: 14px;
+    margin-top: 3.5vw;
+    margin-right: 10vw;
     li {
       margin: 0 10px;
       a {
         display: flex;
         align-items: center;
-        font-size: 1vw;
+        font-size: 2vw;
+        line-height: 1.0;
         background: #fff;
         img {
           width: 10px;
@@ -321,6 +323,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-top: 15px;
   input {
     width: 76%;
     font-size: 15px;

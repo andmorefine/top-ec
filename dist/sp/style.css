@@ -394,12 +394,13 @@ a img:hover, button img:hover {
   justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  width: 73%;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  width: 61vw;
   margin-left: auto;
-  margin-top: 14px;
+  margin-top: 3.5vw;
+  margin-right: 10vw;
 }
 
 .header-contents .cart-link li {
@@ -415,7 +416,8 @@ a img:hover, button img:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1vw;
+  font-size: 2vw;
+  line-height: 1.0;
   background: #fff;
 }
 
@@ -769,6 +771,7 @@ a img:hover, button img:hover {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
+  margin-top: 15px;
 }
 
 .search-text-area input {
