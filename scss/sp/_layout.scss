@@ -1,0 +1,49 @@
+
+.l-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  .l-contents {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  // .l-sidebar {
+  //   width: 190px;
+  // }
+  .l-main {
+    width: 100%;
+  }
+  .l-footer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.fixed-area {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  a {
+    display: block;
+    padding: 10px 0;
+    img {
+      width: 84px;
+    }
+  }
+}
+
+.page-top {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  img {
+    width: 66px;
+  }
+}

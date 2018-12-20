@@ -1,0 +1,49 @@
+
+<div class="content topics-area">
+  <h2><img src="{{ image_path }}/title/topics.png" alt="" /></h2>
+  <div class="topics-tab">
+    <ul>
+      <li><a href="javascript:void(0)">2019/01/05</a></li>
+      <li class="active"><a href="javascript:void(0)">2019/01/05</a></li>
+      <li><a href="javascript:void(0)">2019/01/05</a></li>
+    </ul>
+  </div>
+  <div class="topics-main">
+    <div class="calculation-area">
+      <div class="number">2019/01/04 出品数 250 点</div>
+      <div class="men">メンズ 60 点</div>
+      <div class="lady">レディース190 点</div>
+    </div>
+    <ul class="topics-list">
+      {% for i in range(1, 21) -%}
+      <li class="list">
+        <a href="javascript:void(0)">
+          <div class="img"><img src="{{ image_path }}/products/product_{{ i }}.png" alt="" /></div>
+          <div class="brand">CELINE</div>
+          <div class="name">千鳥格子　ハウンドトゥース　ミニワンピース　ドレス</div>
+          <div class="price"><strong>75,374円(税込)</strong></div>
+          <ul class="icon-list">
+            <li><img src="{{ image_path }}/rank-icon/b.png" alt="" /></li>
+            <li><img src="{{ image_path }}/size/m.png" alt="" /></li>
+            <li><img src="{{ image_path }}/lady.png" alt="" /></li>
+          </ul>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+    <div class="other-products-area">
+      <button class="button">
+        <span>その他の商品を見る</span>
+        <img src="{{ image_path }}/arrow.png" alt="" />
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="content w-100">
+  <img src="{{ image_path }}/kaitori-flow.png" alt="" />
+</div>
+
+<div class="content w-100">
+  <img src="{{ image_path }}/line.png" alt="" />
+</div>

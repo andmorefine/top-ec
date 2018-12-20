@@ -1,0 +1,9 @@
+
+<div class="content">
+  <h2><img src="{{ image_path }}/title/pickup-brand.png" alt="" /></h2>
+  <ul class="pickup-brand-list">
+    {% for i in range(1, 12) -%}
+      <li><img src="{{ image_path }}/pickup/{{ i }}.png" alt="" /></li>
+    {%- endfor %}
+  </ul>
+</div>

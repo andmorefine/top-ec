@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>sample-top</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="{{ image_path }}/lady.png" />
+  </head>
+  <body>
+  <div class="l-wrapper">
+    {% include "sp/_header.html" %}
+    {% include "sp/_head_item.html" %}
+    {% include "sp/_slid_banner.html" %}
+    <div class="l-contents">
+      <div class="l-main">
+      {% include "sp/_topics.html" %}
+      {% include "sp/_picup_brand.html" %}
+      {% include "sp/_ranking.html" %}
+      {% include "sp/_magazine.html" %}
+      </div>
+    </div>
+    {% include "sp/_footer.html" %}
+  </div>
+  {% include "sp/_page_fixed.html" %}
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </body>
+</html>
