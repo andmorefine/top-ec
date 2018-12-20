@@ -4,6 +4,9 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  img {
+    width: 100%;
+  }
   .l-contents {
     margin-top: 20px;
     margin-right: auto;
@@ -28,22 +31,40 @@
 
 .fixed-area {
   position: fixed;
-  top: 150px;
+  bottom: 0;
   right: 0;
+  left: 0;
+  background: #fff;
   a {
     display: block;
-    padding: 10px 0;
-    img {
-      width: 84px;
+    padding: 8px 0;
+  }
+  .underbar-list {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1px solid #00000047;
+    li {
+      width: 20%;
+      text-align: center;
+      img {
+        width: 40px;
+      }
+      span {
+        margin-top: 3px;
+        display: block;
+        font-size: 1.2vw;
+      }
     }
   }
 }
 
 .page-top {
   position: fixed;
-  bottom: 5px;
+  bottom: 130px;
   right: 10px;
   img {
-    width: 66px;
+    width: 50px;
   }
 }
